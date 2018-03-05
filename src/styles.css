@@ -1,8 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
-html { 
-  background: url(assets/avo.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+@media all and (max-width: 768px) {
+    html {
+      background: url(assets/avo_mobile.gif) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+}
+
+
+@media all and (min-width: 769px) {
+  /* You can add global styles to this file, and also import other style files */
+  html {
+    background: url(assets/avo.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
