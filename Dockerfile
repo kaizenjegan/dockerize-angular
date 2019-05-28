@@ -23,4 +23,4 @@ COPY . /usr/src/app
 EXPOSE 4200
 
 # Serve the app
-CMD ["npm", "start"]
+CMD ["ng", "serve", "--host", "0.0.0.0"]
